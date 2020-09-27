@@ -5,14 +5,15 @@ require 'pry'
 def key_for_min_value(name_hash)
   name_hash.each do |name, number|
     min_value = nil
-    hash_index = 0
-    while hash_index < name_hash.count do
+    #hash_index = 0
+    #while hash_index < name_hash.count do
       if min_value == nil || name_hash[number] < min_value
        #binding.pry
        min_value = name_hash[number]
       end
-    hash_index += 1
-    end
+    #hash_index += 1
+    #end
   end
-  name_hash[number]
+  min_value
+  #name_hash[number]
 end
