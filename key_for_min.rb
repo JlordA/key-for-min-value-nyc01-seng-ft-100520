@@ -9,12 +9,13 @@ def key_for_min_value(name_hash)
     #hash_index = 0
     #while hash_index < name_hash.count do
       if min_value == nil || number < min_value
+       min_name = name
        #binding.pry
        min_value = number
       end
     #hash_index += 1
     #end
   end
-  min_value
+  min_name
   #name_hash[number]
 end
