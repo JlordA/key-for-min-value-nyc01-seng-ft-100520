@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     while hash_index < name_hash.count do
       if min_value == nil || name_hash[number] < min_value
        min_value = name_hash[number]
-
+      end
     end
-    end
+    hash_index += 1
   end
 end
