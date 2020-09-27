@@ -9,8 +9,8 @@ def key_for_min_value(name_hash)
       if min_value == nil || name_hash[number] < min_value
        min_value = name_hash[number]
       end
-    end
     hash_index += 1
+    end
   end
   name_hash[number]
 end
