@@ -12,4 +12,5 @@ def key_for_min_value(name_hash)
     end
     hash_index += 1
   end
+  name_hash[number]
 end
