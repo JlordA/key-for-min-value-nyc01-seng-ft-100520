@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
     min_value = nil
     hash_index = 0
     while hash_index < name_hash.count do
-      binding.pry
       if min_value == nil || name_hash[number] < min_value
+       binding.pry
        min_value = name_hash[number]
       end
     hash_index += 1
